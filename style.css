@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+h1{
+text-transform: uppercase;
+font-size: 50px;
+font-family: 'Times New Roman', Times, serif;
+/* bottom: 350px; */
+}
+#container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 450px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 16px;
+    outline: none;
+    transition: border 0.3s;
+}
+
+#input:focus {
+    border-color: #007BFF;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#maindelebtn {
+    background-color: #FF4D4D;
+}
+
+#maindelebtn:hover {
+    background-color: #ff1a1a;
+}
+
+#container2 {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    padding: 12px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+li:hover {
+    background-color: #f1f1f1;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button i {
+    font-size: 18px;
+}
+
+button {
+    background: none;
+    border: none;
+    color: #007BFF;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+button:hover {
+    color: #0056b3;
+}
+
+input[type="text"], input[type="input"] {
+    border: 1px solid #ccc;
+    padding: 8px;
+    width: 70%;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.input2{
+    background-color: #f9f9f9;
+}
+.input2:hover{
+    background-color: #f1f1f1;
+}
+i.fa-check {
+    color: green;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+i.fa-check:hover {
+    color: darkgreen;
+}
+
+input[type="text"] {
+    border: 1px solid #ccc;
+    margin-right: 10px;
+
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+.showdark{
+background-color: black;
+color: white;
+
+}
